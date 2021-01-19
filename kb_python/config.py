@@ -189,7 +189,7 @@ def get_kallisto_binary_path():
         raise UnsupportedOSException(
             'This operating system ({}) is not supported.'.format(PLATFORM)
         )
-    return path
+    return "kallisto"
 
 
 def get_bustools_binary_path():
@@ -207,7 +207,7 @@ def get_bustools_binary_path():
         raise UnsupportedOSException(
             'This operating system ({}) is not supported.'.format(PLATFORM)
         )
-    return path
+    return "bustools"
 
 
 def set_dry():
